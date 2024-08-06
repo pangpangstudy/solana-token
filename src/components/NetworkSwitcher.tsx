@@ -27,14 +27,14 @@ const NetworkSwitcher: FC = () => {
             color: selectedOption === networkConfiguration ? "white" : "black",
           }}
         >
-          <option
+          {/* <option
             value="mainnet-beta"
             style={{
               color: selectedOption === "mainnet-beta" ? "white" : "black",
             }}
           >
             main
-          </option>
+          </option> */}
           <option
             value="devnet"
             style={{ color: selectedOption === "devnet" ? "white" : "black" }}
